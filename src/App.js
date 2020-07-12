@@ -15,8 +15,8 @@ const [state,setState] = useState({
 const apiurl = "http://www.omdbapi.com/?apikey=dfe6d885";
 
 const search = (e) =>{
-  if(e.key = "Enter"){
-    axios(apiurl + "&s=" + state.s).then(({data}) =>{
+  if(e.key === "Enter"){
+      axios(apiurl + "&s=" + state.s).then(({data}) =>{
       let results = data.Search;
 
       setState(prevState => {
