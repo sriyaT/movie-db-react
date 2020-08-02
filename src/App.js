@@ -51,7 +51,7 @@ function App() {
   return (
     <div className='App'>
       <header>
-        <h1>Movie Database</h1>
+        <h1>Movie Tracker</h1>
       </header>
       <main>
         <Search handleInput={handleInpuut} search={search} />
