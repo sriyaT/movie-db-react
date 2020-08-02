@@ -109,9 +109,11 @@ section {
 }
 .popup .content .plot {
   display: flex;
-  flex-wrap: wrap;
+
   margin: 0px -15px 30px;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .popup .content .plot img {
   flex: 1 1 50%;
@@ -138,4 +140,12 @@ section {
 }
 .popup .content .close:hover {
   background: #333343;
+}
+@media (max-width: 500px) {
+  .results {
+    justify-content: center;
+  }
+  .Result {
+    margin-bottom: 20px;
+  }
 }
