@@ -50,6 +50,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   margin: 0px -15px;
+  justify-content: space-between;
 }
 .results result {
   width: 33.33%;
